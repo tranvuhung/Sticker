@@ -23,6 +23,9 @@
 		624B86011FC3C74A002C3D55 /* JawBreaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F81FC3C749002C3D55 /* JawBreaker.png */; };
 		624B86021FC3C74A002C3D55 /* Lollipop.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F91FC3C749002C3D55 /* Lollipop.png */; };
 		624B86031FC3C74A002C3D55 /* SourCandy.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85FA1FC3C749002C3D55 /* SourCandy.png */; };
+		6294774C1FC42A49007EB6C8 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294774B1FC42A49007EB6C8 /* SectionHeader.swift */; };
+		6294774E1FC42A6F007EB6C8 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294774D1FC42A6F007EB6C8 /* StickerCollectionViewCell.swift */; };
+		629477501FC42AD5007EB6C8 /* StickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294774F1FC42AD5007EB6C8 /* StickerCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		624B85F81FC3C749002C3D55 /* JawBreaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JawBreaker.png; sourceTree = "<group>"; };
 		624B85F91FC3C749002C3D55 /* Lollipop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lollipop.png; sourceTree = "<group>"; };
 		624B85FA1FC3C749002C3D55 /* SourCandy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SourCandy.png; sourceTree = "<group>"; };
+		6294774B1FC42A49007EB6C8 /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		6294774D1FC42A6F007EB6C8 /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		6294774F1FC42AD5007EB6C8 /* StickerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 				624B85F11FC3C749002C3D55 /* candy */,
 				624B85DE1FC3BF2D002C3D55 /* MessagesViewController.swift */,
 				624B85E01FC3BF2D002C3D55 /* MainInterface.storyboard */,
+				6294774B1FC42A49007EB6C8 /* SectionHeader.swift */,
+				6294774D1FC42A6F007EB6C8 /* StickerCollectionViewCell.swift */,
+				6294774F1FC42AD5007EB6C8 /* StickerCollectionViewController.swift */,
 				624B85EF1FC3C640002C3D55 /* CandyStickerBrowserViewController.swift */,
 				624B85E31FC3BF2D002C3D55 /* Assets.xcassets */,
 				624B85E51FC3BF2D002C3D55 /* Info.plist */,
@@ -261,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				624B85DF1FC3BF2D002C3D55 /* MessagesViewController.swift in Sources */,
+				629477501FC42AD5007EB6C8 /* StickerCollectionViewController.swift in Sources */,
 				624B85F01FC3C640002C3D55 /* CandyStickerBrowserViewController.swift in Sources */,
+				6294774E1FC42A6F007EB6C8 /* StickerCollectionViewCell.swift in Sources */,
+				6294774C1FC42A49007EB6C8 /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +467,7 @@
 				624B85EA1FC3BF2D002C3D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		624B85EC1FC3BF2D002C3D55 /* Build configuration list for PBXNativeTarget "Sticker" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +476,7 @@
 				624B85EE1FC3BF2D002C3D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
