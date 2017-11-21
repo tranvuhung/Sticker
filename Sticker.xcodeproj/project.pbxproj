@@ -13,6 +13,16 @@
 		624B85DF1FC3BF2D002C3D55 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624B85DE1FC3BF2D002C3D55 /* MessagesViewController.swift */; };
 		624B85E21FC3BF2D002C3D55 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624B85E01FC3BF2D002C3D55 /* MainInterface.storyboard */; };
 		624B85E41FC3BF2D002C3D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624B85E31FC3BF2D002C3D55 /* Assets.xcassets */; };
+		624B85F01FC3C640002C3D55 /* CandyStickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624B85EF1FC3C640002C3D55 /* CandyStickerBrowserViewController.swift */; };
+		624B85FB1FC3C749002C3D55 /* CandyCane.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F21FC3C749002C3D55 /* CandyCane.png */; };
+		624B85FC1FC3C74A002C3D55 /* Caramel.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F31FC3C749002C3D55 /* Caramel.png */; };
+		624B85FD1FC3C74A002C3D55 /* ChocolateBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F41FC3C749002C3D55 /* ChocolateBar.png */; };
+		624B85FE1FC3C74A002C3D55 /* ChocolateChip.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F51FC3C749002C3D55 /* ChocolateChip.png */; };
+		624B85FF1FC3C74A002C3D55 /* DarkChocolate.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F61FC3C749002C3D55 /* DarkChocolate.png */; };
+		624B86001FC3C74A002C3D55 /* GummiBear.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F71FC3C749002C3D55 /* GummiBear.png */; };
+		624B86011FC3C74A002C3D55 /* JawBreaker.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F81FC3C749002C3D55 /* JawBreaker.png */; };
+		624B86021FC3C74A002C3D55 /* Lollipop.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85F91FC3C749002C3D55 /* Lollipop.png */; };
+		624B86031FC3C74A002C3D55 /* SourCandy.png in Resources */ = {isa = PBXBuildFile; fileRef = 624B85FA1FC3C749002C3D55 /* SourCandy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		624B85E11FC3BF2D002C3D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		624B85E31FC3BF2D002C3D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		624B85E51FC3BF2D002C3D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624B85EF1FC3C640002C3D55 /* CandyStickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyStickerBrowserViewController.swift; sourceTree = "<group>"; };
+		624B85F21FC3C749002C3D55 /* CandyCane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CandyCane.png; sourceTree = "<group>"; };
+		624B85F31FC3C749002C3D55 /* Caramel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Caramel.png; sourceTree = "<group>"; };
+		624B85F41FC3C749002C3D55 /* ChocolateBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateBar.png; sourceTree = "<group>"; };
+		624B85F51FC3C749002C3D55 /* ChocolateChip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChocolateChip.png; sourceTree = "<group>"; };
+		624B85F61FC3C749002C3D55 /* DarkChocolate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkChocolate.png; sourceTree = "<group>"; };
+		624B85F71FC3C749002C3D55 /* GummiBear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GummiBear.png; sourceTree = "<group>"; };
+		624B85F81FC3C749002C3D55 /* JawBreaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JawBreaker.png; sourceTree = "<group>"; };
+		624B85F91FC3C749002C3D55 /* Lollipop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lollipop.png; sourceTree = "<group>"; };
+		624B85FA1FC3C749002C3D55 /* SourCandy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SourCandy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +122,30 @@
 		624B85DD1FC3BF2D002C3D55 /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				624B85F11FC3C749002C3D55 /* candy */,
 				624B85DE1FC3BF2D002C3D55 /* MessagesViewController.swift */,
 				624B85E01FC3BF2D002C3D55 /* MainInterface.storyboard */,
+				624B85EF1FC3C640002C3D55 /* CandyStickerBrowserViewController.swift */,
 				624B85E31FC3BF2D002C3D55 /* Assets.xcassets */,
 				624B85E51FC3BF2D002C3D55 /* Info.plist */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		624B85F11FC3C749002C3D55 /* candy */ = {
+			isa = PBXGroup;
+			children = (
+				624B85F21FC3C749002C3D55 /* CandyCane.png */,
+				624B85F31FC3C749002C3D55 /* Caramel.png */,
+				624B85F41FC3C749002C3D55 /* ChocolateBar.png */,
+				624B85F51FC3C749002C3D55 /* ChocolateChip.png */,
+				624B85F61FC3C749002C3D55 /* DarkChocolate.png */,
+				624B85F71FC3C749002C3D55 /* GummiBear.png */,
+				624B85F81FC3C749002C3D55 /* JawBreaker.png */,
+				624B85F91FC3C749002C3D55 /* Lollipop.png */,
+				624B85FA1FC3C749002C3D55 /* SourCandy.png */,
+			);
+			path = candy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +239,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624B86011FC3C74A002C3D55 /* JawBreaker.png in Resources */,
+				624B85FD1FC3C74A002C3D55 /* ChocolateBar.png in Resources */,
+				624B86021FC3C74A002C3D55 /* Lollipop.png in Resources */,
+				624B86001FC3C74A002C3D55 /* GummiBear.png in Resources */,
 				624B85E41FC3BF2D002C3D55 /* Assets.xcassets in Resources */,
+				624B85FF1FC3C74A002C3D55 /* DarkChocolate.png in Resources */,
+				624B86031FC3C74A002C3D55 /* SourCandy.png in Resources */,
+				624B85FB1FC3C749002C3D55 /* CandyCane.png in Resources */,
 				624B85E21FC3BF2D002C3D55 /* MainInterface.storyboard in Resources */,
+				624B85FE1FC3C74A002C3D55 /* ChocolateChip.png in Resources */,
+				624B85FC1FC3C74A002C3D55 /* Caramel.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				624B85DF1FC3BF2D002C3D55 /* MessagesViewController.swift in Sources */,
+				624B85F01FC3C640002C3D55 /* CandyStickerBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
